@@ -11,6 +11,7 @@ The main code to analyze PET data and calculate bacteria attachment and attachme
 Next, the code to generate a 3D numerical model is in **"numerical_model.py"**. It is used to test the bacterial attachment during transport in a 3D column and compared with the experimental results to validate the kf calculation approach in **"pet_data_analysis.py"**. Functions required in this code is imported from **"kf_distribution_functions.py"**. Given similar column geometry, sediment porosity and dispersivities, and transport conditions, the numerical model predicts bacteria attachment (S*/C<sub>0</sub>) in 3D in two scenarios: 
 1. a homogeneous column with a constant single k<sub>f</sub> averaged from all kf data in **"kf_distribution_3d.csv"** and 
 2. a heterogeneous column parameterized with the attachment rate coefficient measured from PET by inputting the **"kf_distribution_3d.csv"** file.
+
 Results of predicted S*/C<sub>0</sub> from the model is plotted in 2D as Figure 5, middle. Experimental S*/C<sub>0</sub> from **"bacteria_attachment_map_3d.csv"** file is loaded in this code to generate Figure 5 bottom plot for comparison with the numerical model result. From the experimental and numerical model results, the 1D average attachment profiles are also calculated and plotted in Figure 5, top plot.
 
 # Supporting Information Data
