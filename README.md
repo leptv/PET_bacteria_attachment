@@ -1,5 +1,9 @@
 # Bacteria attachment PET data analysis
-Python codes and data for result and figure generation in paper " In situ measurements of dynamic bacteria transport and attachment in heterogeneous sand-packed columns".
+Python codes and data for result and figure generation in paper " In situ measurements of dynamic bacteria transport and attachment in heterogeneous sand-packed columns". 
+
+All Python code files (.py), and data files (.csv, .npy) should be downloaded and stored in the same folder (working directory) in order for run code files successfully.
+
+## File description
 
 Three-dimensional (3D) raw data from PET imaging of two column experiments (tracer and E. coli bacteria injections) were pre-processed by coarsening voxel dimensions, normalizing the concentration. The pre-processed tracer and bacteria data are stored as 3D arrays in **"tracer_PET_data_processed.npy"** and **"bacteria_PET_data_processed.npy"**, respectively. 
 
