@@ -5,7 +5,7 @@ All Python code files (.py), and data files (.csv, .npy) should be downloaded an
 
 ## File description
 
-Three-dimensional (3D) raw data from PET imaging of two column experiments (tracer and E. coli bacteria injections) were pre-processed by coarsening voxel dimensions, normalizing the concentration. The pre-processed tracer and bacteria data are stored as 3D arrays in **"tracer_PET_data_processed.npy"** and **"bacteria_PET_data_processed.npy"**, respectively. 
+Three-dimensional (3D) raw data from PET imaging of two column experiments (tracer and E. coli bacteria injections) were pre-processed by coarsening voxel dimensions, normalizing the concentration. The pre-processed tracer and bacteria raw data are stored in **"tracer_PET_data_processed.npy"** and **"bacteria_PET_data_processed.npy"**, respectively. 
 
 The main code to analyze PET data and calculate bacteria attachment and attachment rate coefficients is **"pet_data_analysis.py"**. Functions required in this code are imported from **"pet_analysis_functions.py"** file and the tracer and bacteria pre-processed data above are input into this code file for analysis. This code is used for:
 - Figure 2 plotting: Concentrations of tracer and bacteria from PET are produced at each time (t= 2,5,8 min since pule injection) to creat time-course concentration maps in the column.
