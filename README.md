@@ -22,3 +22,4 @@ Results of predicted S*/C<sub>0</sub> from the model is plotted in 2D as Figure 
 The **"Supporting Information_Data.xlsx"** file includes results from radiolabeling batch experiments and radioactivity in effluent autosamples during PET experiments that are used to plot Figure S2 and S3 in the Supporting Information, respectively. Workbook "Fig S2_uptake and retention" contains a description of all radiolabeling batch experiments, followed by time-course measurements of the F18-FDG uptake and retention percentage by E. coli which were measured from triplicate samples. Uptake and retention results from these experiments are used to plot Figure S2 in the Supporting Information. Workbook "Fig S3_Effluent radioactivity" contains measurements of radioactivity in the bulk solution and bacteria from the effluent samples during bacteria injection in PET column experiment that are used to plot Figure S3 in the SI.
 
 
+
